@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['previous_157',['previous',['../structCoreContext.html#a45e283ec967fdb8b8e5537fbde97abf2',1,'CoreContext']]]
+  ['previous_154',['previous',['../structCore.html#a81f3c594e83d06fae7dbf3055fbe7310',1,'Core']]]
 ];

@@ -13,6 +13,7 @@
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -85,7 +86,7 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRenderer.html">Renderer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCoreContext.html">CoreContext</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCore.html">Core</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTexture.html">Texture</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -95,23 +96,15 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structRectangle.html">Rectangle</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structFRectangle.html">FRectangle</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structColor.html">Color</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ab97ed46a96843bec0b5697c30118fb49"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structRenderer.html">Renderer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#ab97ed46a96843bec0b5697c30118fb49">RendererState</a></td></tr>
-<tr class="separator:ab97ed46a96843bec0b5697c30118fb49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4c5df31dfcf88092a3a678f33d8b207"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structCoreContext.html">CoreContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#ad4c5df31dfcf88092a3a678f33d8b207">Core</a></td></tr>
-<tr class="separator:ad4c5df31dfcf88092a3a678f33d8b207"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14ee70980c417cd572f468554279cce4"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structCoreContext.html">CoreContext</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#a14ee70980c417cd572f468554279cce4">CoreData</a></td></tr>
-<tr class="separator:a14ee70980c417cd572f468554279cce4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9862149b4afb78441c9ac01b07535975"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structTexture.html">Texture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#a9862149b4afb78441c9ac01b07535975">Texture</a></td></tr>
+<tr class="separator:a9862149b4afb78441c9ac01b07535975"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae919c7cfe32cba1ce1c9a6df810de7ef"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structTexture.html">Texture</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#ae919c7cfe32cba1ce1c9a6df810de7ef">Texture2D</a></td></tr>
 <tr class="separator:ae919c7cfe32cba1ce1c9a6df810de7ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6793c760667fe6bf1481f61567954c12"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structFont.html">Font</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#a6793c760667fe6bf1481f61567954c12">Font</a></td></tr>
-<tr class="separator:a6793c760667fe6bf1481f61567954c12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -143,60 +136,18 @@ Functions</h2></td></tr>
 Variables</h2></td></tr>
 <tr class="memitem:aee5ec0ba39c124cbd88d9b038566b03c"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structRenderer.html">Renderer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#aee5ec0ba39c124cbd88d9b038566b03c">renderer</a> = nullptr</td></tr>
 <tr class="separator:aee5ec0ba39c124cbd88d9b038566b03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac514708823258c25eb965ca7319b1d95"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="ember__core_8h.html#ad4c5df31dfcf88092a3a678f33d8b207">Core</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#ac514708823258c25eb965ca7319b1d95">core</a> = {0}</td></tr>
+<tr class="memitem:ac514708823258c25eb965ca7319b1d95"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structCore.html">Core</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#ac514708823258c25eb965ca7319b1d95">core</a> = {0}</td></tr>
 <tr class="separator:ac514708823258c25eb965ca7319b1d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="ad4c5df31dfcf88092a3a678f33d8b207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4c5df31dfcf88092a3a678f33d8b207">&#9670;&nbsp;</a></span>Core</h2>
+<a id="a9862149b4afb78441c9ac01b07535975"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9862149b4afb78441c9ac01b07535975">&#9670;&nbsp;</a></span>Texture</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef struct <a class="el" href="structCoreContext.html">CoreContext</a> <a class="el" href="ember__core_8h.html#ad4c5df31dfcf88092a3a678f33d8b207">Core</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a14ee70980c417cd572f468554279cce4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14ee70980c417cd572f468554279cce4">&#9670;&nbsp;</a></span>CoreData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structCoreContext.html">CoreContext</a> <a class="el" href="ember__core_8h.html#a14ee70980c417cd572f468554279cce4">CoreData</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6793c760667fe6bf1481f61567954c12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6793c760667fe6bf1481f61567954c12">&#9670;&nbsp;</a></span>Font</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structFont.html">Font</a> <a class="el" href="structFont.html">Font</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab97ed46a96843bec0b5697c30118fb49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab97ed46a96843bec0b5697c30118fb49">&#9670;&nbsp;</a></span>RendererState</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef struct <a class="el" href="structRenderer.html">Renderer</a> <a class="el" href="ember__core_8h.html#ab97ed46a96843bec0b5697c30118fb49">RendererState</a></td>
+          <td class="memname">typedef struct <a class="el" href="structTexture.html">Texture</a> <a class="el" href="structTexture.html">Texture</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -383,8 +334,7 @@ Type: Metal <blockquote class="doxtable">
 
 <p>Initialize SDL window, renderer and modules. </p>
 <ul>
-<li>Window <br  />
-</li>
+<li>Window</li>
 <li>Graphics Backend <code>OpenGL</code> or <code>Metal</code></li>
 <li>Audio</li>
 <li><a class="el" href="structFont.html">Font</a></li>
@@ -444,7 +394,7 @@ Type: Metal <blockquote class="doxtable">
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ember__core_8h.html#ad4c5df31dfcf88092a3a678f33d8b207">Core</a> core = {0}</td>
+          <td class="memname"><a class="el" href="structCore.html">Core</a> core = {0}</td>
         </tr>
       </table>
   </td>

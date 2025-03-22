@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['w_169',['w',['../structGlyph.html#add29cb686791277ba4766f46baf8c683',1,'Glyph']]],
-  ['width_170',['width',['../structCoreContext.html#a1abf8d7a755bbc836a707be8abb98d3a',1,'CoreContext::width()'],['../structTexture.html#a06a0246cb31343557c3441c5733349cd',1,'Texture::width()'],['../structRectangle.html#a019ed802523594472e0032953b6062d4',1,'Rectangle::width()'],['../structFRectangle.html#ae665c77c85d91aef01761b1d5b57ad09',1,'FRectangle::width()']]],
-  ['window_171',['window',['../structRenderer.html#a6cb53f6046afd78eafad503d16b0c07b',1,'Renderer']]],
-  ['window_172',['Window',['../structCoreContext.html#a7113999022902c7d855c0e09a88fc7c8',1,'CoreContext']]]
+  ['w_167',['w',['../structGlyph.html#add29cb686791277ba4766f46baf8c683',1,'Glyph']]],
+  ['width_168',['width',['../structCore.html#adbf1d5caeb89aa070eb2641be7ecfd78',1,'Core::width()'],['../structTexture.html#a06a0246cb31343557c3441c5733349cd',1,'Texture::width()'],['../structRectangle.html#a019ed802523594472e0032953b6062d4',1,'Rectangle::width()']]],
+  ['window_169',['Window',['../structCore.html#a4f33f4f38a9be722b5a240010efa677b',1,'Core']]],
+  ['window_170',['window',['../structRenderer.html#a6cb53f6046afd78eafad503d16b0c07b',1,'Renderer']]]
 ];
