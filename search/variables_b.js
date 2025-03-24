@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['previous_154',['previous',['../structCore.html#a81f3c594e83d06fae7dbf3055fbe7310',1,'Core']]]
+  ['opengl_161',['OpenGL',['../structRenderer.html#ab8788a0aa6f455f87ddb23545c31f82c',1,'Renderer']]]
 ];

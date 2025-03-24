@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['r_155',['r',['../structColor.html#ab9a9c7134511f9b116a6fcc81a303ba6',1,'Color']]],
-  ['renderer_156',['renderer',['../ember__core_8h.html#aee5ec0ba39c124cbd88d9b038566b03c',1,'ember_core.h']]]
+  ['position_162',['position',['../structVertex.html#a030819fdc241743bbd3e180a6b132ed3',1,'Vertex']]],
+  ['previous_163',['previous',['../structCore.html#a81f3c594e83d06fae7dbf3055fbe7310',1,'Core']]]
 ];

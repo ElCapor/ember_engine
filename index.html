@@ -82,17 +82,27 @@ $(function() {
 </ul>
 </li>
 <li>🎨 <b>Graphics Backend</b>:<ul>
-<li>OpenGL (Windows, Linux, macOS, Android, Web)</li>
-<li>Metal (macOS, iOS)</li>
+<li>OpenGL/ES (Windows, Linux, macOS, Android, Web)</li>
+<li>Metal (macOS, iOS) **(coming soon)**</li>
 </ul>
 </li>
-<li>🔄 <b>Modular Architecture</b>: Focus on a clean and extensible design.</li>
 <li>🛠️ <b>Lightweight <a class="el" href="structCore.html">Core</a></b>: Minimal dependencies for fast builds and portability.</li>
-<li>🎮 <b>Input, Audio, and Asset Management</b>: Out-of-the-box components to get your game running quickly.</li>
+<li>🎮 <b>Input, Audio, and <a class="el" href="structTexture.html">Texture</a> Management</b>: Simple and extensible input, audio, and texture management.</li>
 </ul>
 <hr  />
 <h2><a class="anchor" id="autotoc_md3"></a>
-📦 Supported Platforms Overview</h2>
+📦 Dependencies</h2>
+<ul>
+<li><a href="https://github.com/libsdl-org/SDL">sdl3</a> (Windowing, Events, Input, Audio, etc.)</li>
+<li><a href="https://github.com/libsdl-org/SDL_mixer">sdl3_mixer</a> (Audio mixer)</li>
+<li><a href="https://github.com/nothings/stb">stb_image</a> (Image loader)</li>
+<li><a href="https://github.com/nothings/stb">stb_truetype</a> (TrueType/SDF font loader)</li>
+<li><a href="https://github.com/Dav1dde/glad">glad</a> (OpenGL/ES Loader)</li>
+<li><a href="https://github.com/g-truc/glm">glm</a> (C++ math library)</li>
+</ul>
+<hr  />
+<h2><a class="anchor" id="autotoc_md5"></a>
+📱 Supported Platforms Overview</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
 <th class="markdownTableHeadNone">Platform   </th><th class="markdownTableHeadNone">Backend   </th><th class="markdownTableHeadNone">Status    </th></tr>
@@ -101,26 +111,30 @@ $(function() {
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Linux   </td><td class="markdownTableBodyNone">OpenGL 3.3   </td><td class="markdownTableBodyNone">✅ Fully supported    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">macOS   </td><td class="markdownTableBodyNone">OpenGL 3.3   </td><td class="markdownTableBodyNone">✅ Fully supported    </td></tr>
+<td class="markdownTableBodyNone">MacOS   </td><td class="markdownTableBodyNone">OpenGL 3.3   </td><td class="markdownTableBodyNone">✅ Fully supported    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">Android   </td><td class="markdownTableBodyNone">OpenGL ES 3.0   </td><td class="markdownTableBodyNone">✅ Fully supported    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">iOS   </td><td class="markdownTableBodyNone">OpenGL ES 3.0   </td><td class="markdownTableBodyNone">✅ Fully supported    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone">Web   </td><td class="markdownTableBodyNone">WebGL 3.0   </td><td class="markdownTableBodyNone">✅ Fully supported   </td></tr>
+<td class="markdownTableBodyNone">Web   </td><td class="markdownTableBodyNone">WebGL 3.0   </td><td class="markdownTableBodyNone">✅ Fully supported    </td></tr>
+<tr class="markdownTableRowOdd">
+<td class="markdownTableBodyNone">iOS   </td><td class="markdownTableBodyNone">Metal   </td><td class="markdownTableBodyNone">🚧 Coming soon    </td></tr>
+<tr class="markdownTableRowEven">
+<td class="markdownTableBodyNone">MacOS   </td><td class="markdownTableBodyNone">Metal   </td><td class="markdownTableBodyNone">🚧 Coming soon   </td></tr>
 </table>
 <blockquote class="doxtable">
 <p>⚠️ <b>Note:</b> Metal backend is planned for future versions. </p>
 </blockquote>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<h1><a class="anchor" id="autotoc_md6"></a>
 &lt;/blockquote&gt;</h1>
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md7"></a>
 📚 Documentation &amp; Examples</h2>
 <p>Documentation and usage examples are coming soon.</p>
 <hr  />
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md9"></a>
 🛠️ Build System</h2>
-<p>Ember Engine uses <b>CMake</b> as its build system and supports the following toolchains:</p><ul>
+<p>Ember Engine uses <a href="https://cmake.org/">cmake</a> as its build system and supports the following toolchains:</p><ul>
 <li>Visual Studio (Windows)</li>
 <li>GCC / Clang (Linux / macOS)</li>
 <li>Android NDK (Android)</li>
@@ -128,11 +142,11 @@ $(function() {
 <li>Emscripten (WebGL)</li>
 </ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md11"></a>
 ⚠️ Disclaimer</h2>
 <p>This project was created for educational and personal purposes. It is <b>not</b> intended for commercial use.</p>
 <hr  />
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md13"></a>
 📝 License</h2>
 <p>This project is distributed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>. </p>
 </div></div><!-- PageDoc -->

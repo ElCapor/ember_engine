@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['x_171',['x',['../structRectangle.html#a7f6d033b3bb8dcf7bf8f82044592c904',1,'Rectangle']]],
-  ['x0_172',['x0',['../structGlyph.html#a19f632294f4f8921113c53184de5e7bc',1,'Glyph']]],
-  ['x1_173',['x1',['../structGlyph.html#ad489d338e37824a2d6ff3a3f38296493',1,'Glyph']]],
-  ['x_5foffset_174',['x_offset',['../structGlyph.html#a90862b2dcc202e94f2820bc6da512438',1,'Glyph']]]
+  ['w_177',['w',['../structGlyph.html#add29cb686791277ba4766f46baf8c683',1,'Glyph']]],
+  ['width_178',['width',['../structCore.html#adbf1d5caeb89aa070eb2641be7ecfd78',1,'Core::width()'],['../structTexture.html#a06a0246cb31343557c3441c5733349cd',1,'Texture::width()'],['../structRectangle.html#a019ed802523594472e0032953b6062d4',1,'Rectangle::width()']]],
+  ['window_179',['window',['../structRenderer.html#a6cb53f6046afd78eafad503d16b0c07b',1,'Renderer']]],
+  ['window_180',['Window',['../structCore.html#a994e01afa9a4bca77fc38aa6aa752614',1,'Core']]]
 ];
