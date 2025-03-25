@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['shader_134',['Shader',['../classShader.html',1,'']]]
+  ['rectangle_143',['Rectangle',['../structRectangle.html',1,'']]],
+  ['renderer_144',['Renderer',['../structRenderer.html',1,'']]]
 ];

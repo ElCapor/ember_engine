@@ -72,21 +72,20 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <a href="Camera_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Transform_8h.html">Transform.h</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;transform.h&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
-<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="structCamera2D.html">    4</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structCamera2D.html">Camera2D</a>{</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce">    5</a></span>&#160;    <a class="code" href="structTransform.html">Transform</a> <a class="code" href="structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce">transform</a>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">    6</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">zoom</a> = 1.0f;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160; </div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    glm::mat4 <a class="code" href="structCamera2D.html#a375e047d2e5c2a5fc36e3b44091efe24">GetViewMatrix</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;};</div>
-<div class="ttc" id="aTransform_8h_html"><div class="ttname"><a href="Transform_8h.html">Transform.h</a></div></div>
-<div class="ttc" id="astructCamera2D_html"><div class="ttname"><a href="structCamera2D.html">Camera2D</a></div><div class="ttdef"><b>Definition:</b> Camera.h:4</div></div>
-<div class="ttc" id="astructCamera2D_html_a05294bc9672c2e3e9d61d9fda8dd37ce"><div class="ttname"><a href="structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce">Camera2D::transform</a></div><div class="ttdeci">Transform transform</div><div class="ttdef"><b>Definition:</b> Camera.h:5</div></div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="structCamera2D.html">    7</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structCamera2D.html">Camera2D</a>{</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce">    8</a></span>&#160;    <a class="code" href="structTransform.html">Transform</a> <a class="code" href="structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce">transform</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">    9</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">zoom</a> = 1.0f;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    glm::mat4 <a class="code" href="structCamera2D.html#a375e047d2e5c2a5fc36e3b44091efe24">GetViewMatrix</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;};</div>
+<div class="ttc" id="astructCamera2D_html"><div class="ttname"><a href="structCamera2D.html">Camera2D</a></div><div class="ttdoc">Camera2D.</div><div class="ttdef"><b>Definition:</b> Camera.h:7</div></div>
+<div class="ttc" id="astructCamera2D_html_a05294bc9672c2e3e9d61d9fda8dd37ce"><div class="ttname"><a href="structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce">Camera2D::transform</a></div><div class="ttdeci">Transform transform</div><div class="ttdef"><b>Definition:</b> Camera.h:8</div></div>
 <div class="ttc" id="astructCamera2D_html_a375e047d2e5c2a5fc36e3b44091efe24"><div class="ttname"><a href="structCamera2D.html#a375e047d2e5c2a5fc36e3b44091efe24">Camera2D::GetViewMatrix</a></div><div class="ttdeci">glm::mat4 GetViewMatrix() const</div><div class="ttdef"><b>Definition:</b> Camera.cpp:4</div></div>
-<div class="ttc" id="astructCamera2D_html_ac617e7e6d2ef6aa9df681b63d958d8ac"><div class="ttname"><a href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">Camera2D::zoom</a></div><div class="ttdeci">float zoom</div><div class="ttdef"><b>Definition:</b> Camera.h:6</div></div>
+<div class="ttc" id="astructCamera2D_html_ac617e7e6d2ef6aa9df681b63d958d8ac"><div class="ttname"><a href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">Camera2D::zoom</a></div><div class="ttdeci">float zoom</div><div class="ttdef"><b>Definition:</b> Camera.h:9</div></div>
 <div class="ttc" id="astructTransform_html"><div class="ttname"><a href="structTransform.html">Transform</a></div><div class="ttdef"><b>Definition:</b> Transform.h:4</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['unloadtexture_179',['UnloadTexture',['../ember__gl_8cpp.html#a55829229581591f29fd9980f61f17797',1,'UnloadTexture(Texture texture):&#160;ember_gl.cpp'],['../ember__gl_8h.html#a55829229581591f29fd9980f61f17797',1,'UnloadTexture(Texture texture):&#160;ember_gl.cpp']]],
-  ['use_180',['Use',['../classShader.html#a11a2de17d1d077ec34acd4f7cd57f6b1',1,'Shader']]]
+  ['setcontext_193',['SetContext',['../structRenderer.html#abf59970106eacbbcd327db17b40c163c',1,'Renderer::SetContext(const SDL_GLContext &amp;ctx)'],['../structRenderer.html#a0e736a5842c87c82c5a9f3a1de15333d',1,'Renderer::SetContext()']]],
+  ['settargetfps_194',['SetTargetFPS',['../ember__core_8cpp.html#a7b08b7b6c0446c86872381feb6a68015',1,'SetTargetFPS(int fps):&#160;ember_core.cpp'],['../ember__core_8h.html#a7b08b7b6c0446c86872381feb6a68015',1,'SetTargetFPS(int fps):&#160;ember_core.cpp']]],
+  ['setvalue_195',['SetValue',['../classShader.html#a25b4fb52a124a99864348755140336aa',1,'Shader::SetValue(const std::string &amp;name, float value) const'],['../classShader.html#a94bc2686ef90caa910bb822e338c4cb6',1,'Shader::SetValue(const std::string &amp;name, int value) const'],['../classShader.html#a035a008519b0b0ae211d686a74cb285e',1,'Shader::SetValue(const std::string &amp;name, glm::mat4 value) const'],['../classShader.html#a78b07cce2c963a4495081e74e7eea06e',1,'Shader::SetValue(const std::string &amp;name, glm::vec2 value) const'],['../classShader.html#adb9be633f2899a79238897a72604f984',1,'Shader::SetValue(const std::string &amp;name, glm::vec3 value) const'],['../classShader.html#aad430d1fe71ad769a8ed07fdb7c4ddfd',1,'Shader::SetValue(const std::string &amp;name, glm::vec4 value) const']]],
+  ['shader_196',['Shader',['../classShader.html#aedc63e240e965b496f246ffc214918b4',1,'Shader::Shader()=default'],['../classShader.html#ad8c9bd5e8338d2f49ede3c77ff091565',1,'Shader::Shader(const std::string &amp;vertex, const std::string &amp;fragment)']]]
 ];

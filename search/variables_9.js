@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['line_5fgap_200',['line_gap',['../structFont.html#aa391fd08bc194e972a87997db975f9fe',1,'Font']]]
+  ['kerning_220',['kerning',['../structFont.html#a5a5e4e456feb99569f8debeea83b3723',1,'Font']]]
 ];
