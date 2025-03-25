@@ -80,6 +80,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a40d1357c1525d821eb7d846c404aa75a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__system_8cpp.html#a40d1357c1525d821eb7d846c404aa75a">LoadAssetsFile</a> (const std::string &amp;file_path)</td></tr>
 <tr class="memdesc:a40d1357c1525d821eb7d846c404aa75a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a given file from <code>assets</code> folder.  <a href="file__system_8cpp.html#a40d1357c1525d821eb7d846c404aa75a">More...</a><br /></td></tr>
 <tr class="separator:a40d1357c1525d821eb7d846c404aa75a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc4975571bfb41e6143425e07afea5a"><td class="memItemLeft" align="right" valign="top">std::vector&lt; char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="file__system_8cpp.html#a7fc4975571bfb41e6143425e07afea5a">LoadFileIntoMemory</a> (const std::string &amp;file_path)</td></tr>
+<tr class="memdesc:a7fc4975571bfb41e6143425e07afea5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a given file from <code>assets</code> folder into memory.  <a href="file__system_8cpp.html#a7fc4975571bfb41e6143425e07afea5a">More...</a><br /></td></tr>
+<tr class="separator:a7fc4975571bfb41e6143425e07afea5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a40d1357c1525d821eb7d846c404aa75a"></a>
@@ -110,6 +113,37 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>File content as <code>string</code> </dd></dl>
+
+</div>
+</div>
+<a id="a7fc4975571bfb41e6143425e07afea5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc4975571bfb41e6143425e07afea5a">&#9670;&nbsp;</a></span>LoadFileIntoMemory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;char&gt; LoadFileIntoMemory </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file_path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loads a given file from <code>assets</code> folder into memory. </p>
+<ul>
+<li>The file path is relative to <code>assets</code> folder</li>
+</ul>
+<dl class="section version"><dt>Version</dt><dd>0.0.2 </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">file_path</td><td>the path to the file in <code>assets</code> folder </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>File content as <code>vector&lt;char&gt;</code> </dd></dl>
 
 </div>
 </div>

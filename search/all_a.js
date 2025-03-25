@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['kerning_47',['kerning',['../structFont.html#a5a5e4e456feb99569f8debeea83b3723',1,'Font']]]
+  ['kerning_57',['kerning',['../structFont.html#a5a5e4e456feb99569f8debeea83b3723',1,'Font']]]
 ];

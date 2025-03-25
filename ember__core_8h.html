@@ -78,6 +78,8 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="file__system_8h_source.html">core/file_system.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="shader_8h_source.html">core/renderer/shader.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="Camera_8h_source.html">core/component/Camera.h</a>&quot;</code><br />
 <code>#include &lt;stb_truetype.h&gt;</code><br />
 </div>
 <p><a href="ember__core_8h_source.html">Go to the source code of this file.</a></p>
@@ -118,9 +120,12 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae5198c083843eb5250a8a1c9fd2cc3b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRenderer.html">Renderer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#ae5198c083843eb5250a8a1c9fd2cc3b4">CreateRenderer</a> (SDL_Window *window, int view_width, int view_height)</td></tr>
-<tr class="memdesc:ae5198c083843eb5250a8a1c9fd2cc3b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a renderer instance.  <a href="ember__core_8h.html#ae5198c083843eb5250a8a1c9fd2cc3b4">More...</a><br /></td></tr>
-<tr class="separator:ae5198c083843eb5250a8a1c9fd2cc3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e25563447bf5532ea51dd09e480d358"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRenderer.html">Renderer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#a1e25563447bf5532ea51dd09e480d358">CreateRenderer</a> (SDL_Window *window, int view_width, int view_height, <a class="el" href="ember__core_8h.html#ae9c668e3a273ce92b9f4e134d0cbd6ce">RendererType</a> type)</td></tr>
+<tr class="memdesc:a1e25563447bf5532ea51dd09e480d358"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a renderer instance.  <a href="ember__core_8h.html#a1e25563447bf5532ea51dd09e480d358">More...</a><br /></td></tr>
+<tr class="separator:a1e25563447bf5532ea51dd09e480d358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a513d877bee9aadff35abe4cd27ef1b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRenderer.html">Renderer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#a513d877bee9aadff35abe4cd27ef1b10">CreateRendererGL</a> (SDL_Window *window, int view_width, int view_height)</td></tr>
+<tr class="memdesc:a513d877bee9aadff35abe4cd27ef1b10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a renderer instance internally.  <a href="ember__core_8h.html#a513d877bee9aadff35abe4cd27ef1b10">More...</a><br /></td></tr>
+<tr class="separator:a513d877bee9aadff35abe4cd27ef1b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f740824e9f0899a9762da529d6192a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structRenderer.html">Renderer</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8h.html#a7f740824e9f0899a9762da529d6192a2">GetRenderer</a> ()</td></tr>
 <tr class="memdesc:a7f740824e9f0899a9762da529d6192a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the renderer instance.  <a href="ember__core_8h.html#a7f740824e9f0899a9762da529d6192a2">More...</a><br /></td></tr>
 <tr class="separator:a7f740824e9f0899a9762da529d6192a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,14 +228,70 @@ Type: Metal <blockquote class="doxtable">
 
 </div>
 </div>
-<a id="ae5198c083843eb5250a8a1c9fd2cc3b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5198c083843eb5250a8a1c9fd2cc3b4">&#9670;&nbsp;</a></span>CreateRenderer()</h2>
+<a id="a1e25563447bf5532ea51dd09e480d358"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e25563447bf5532ea51dd09e480d358">&#9670;&nbsp;</a></span>CreateRenderer()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structRenderer.html">Renderer</a>* CreateRenderer </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Window *&#160;</td>
+          <td class="paramname"><em>window</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>view_width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>view_height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="ember__core_8h.html#ae9c668e3a273ce92b9f4e134d0cbd6ce">RendererType</a>&#160;</td>
+          <td class="paramname"><em>type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create a renderer instance. </p>
+<ul>
+<li>Backend <code>OpenGL</code> or <code>Metal</code></li>
+</ul>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">window</td><td>SDL window instance </td></tr>
+    <tr><td class="paramname">view_width</td><td>Viewport width </td></tr>
+    <tr><td class="paramname">view_height</td><td>Viewport height </td></tr>
+    <tr><td class="paramname">type</td><td><a class="el" href="structRenderer.html">Renderer</a> type <code>OPENGL</code> or <code>METAL</code></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.1 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structRenderer.html">Renderer</a> </dd></dl>
+
+</div>
+</div>
+<a id="a513d877bee9aadff35abe4cd27ef1b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a513d877bee9aadff35abe4cd27ef1b10">&#9670;&nbsp;</a></span>CreateRendererGL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structRenderer.html">Renderer</a>* CreateRendererGL </td>
           <td>(</td>
           <td class="paramtype">SDL_Window *&#160;</td>
           <td class="paramname"><em>window</em>, </td>
@@ -255,7 +316,10 @@ Type: Metal <blockquote class="doxtable">
       </table>
 </div><div class="memdoc">
 
-<p>Create a renderer instance. </p>
+<p>Create a renderer instance internally. </p>
+<ul>
+<li>Backend <code>OpenGL</code></li>
+</ul>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">window</td><td>SDL window instance </td></tr>
@@ -264,7 +328,7 @@ Type: Metal <blockquote class="doxtable">
   </table>
   </dd>
 </dl>
-<dl class="section version"><dt>Version</dt><dd>0.0.1 </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.2 </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="structRenderer.html">Renderer</a> </dd></dl>
 
 </div>
