@@ -12,7 +12,7 @@ var searchData=
   ['trace_5ffile_5flog_110',['TRACE_FILE_LOG',['../logging_8h.html#ad81fedf305a67bf04cfc2ea287fe2370',1,'logging.h']]],
   ['transform_111',['Transform',['../structTransform.html',1,'']]],
   ['transform_112',['transform',['../structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce',1,'Camera2D']]],
-  ['transform_2ecpp_113',['Transform.cpp',['../Transform_8cpp.html',1,'']]],
-  ['transform_2eh_114',['Transform.h',['../Transform_8h.html',1,'']]],
+  ['transform_2ecpp_113',['transform.cpp',['../transform_8cpp.html',1,'']]],
+  ['transform_2eh_114',['transform.h',['../transform_8h.html',1,'']]],
   ['type_115',['type',['../structRenderer.html#ae4a592c272f20d110d6eb9292f2994f8',1,'Renderer']]]
 ];
