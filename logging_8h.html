@@ -112,8 +112,61 @@ Macros</h2></td></tr>
 <tr class="memitem:a1d80faf9837a02f60bdc662624b3a002"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logging_8h.html#a1d80faf9837a02f60bdc662624b3a002">GL_ERROR</a>()</td></tr>
 <tr class="memdesc:a1d80faf9837a02f60bdc662624b3a002"><td class="mdescLeft">&#160;</td><td class="mdescRight">OpenGL error debug macro (for development)  <a href="logging_8h.html#a1d80faf9837a02f60bdc662624b3a002">More...</a><br /></td></tr>
 <tr class="separator:a1d80faf9837a02f60bdc662624b3a002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb4e687ead50241c965f0ce3f1f40bbe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logging_8h.html#adb4e687ead50241c965f0ce3f1f40bbe">EMBER_TIMER_START</a>()&#160;&#160;&#160;auto start = std::chrono::high_resolution_clock::now();</td></tr>
+<tr class="memdesc:adb4e687ead50241c965f0ce3f1f40bbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer macro.  <a href="logging_8h.html#adb4e687ead50241c965f0ce3f1f40bbe">More...</a><br /></td></tr>
+<tr class="separator:adb4e687ead50241c965f0ce3f1f40bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab28aa2dcb1df66ad5405fee44f09d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logging_8h.html#afab28aa2dcb1df66ad5405fee44f09d1">EMBER_TIMER_END</a>(description)</td></tr>
+<tr class="memdesc:afab28aa2dcb1df66ad5405fee44f09d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timer macro end.  <a href="logging_8h.html#afab28aa2dcb1df66ad5405fee44f09d1">More...</a><br /></td></tr>
+<tr class="separator:afab28aa2dcb1df66ad5405fee44f09d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="afab28aa2dcb1df66ad5405fee44f09d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab28aa2dcb1df66ad5405fee44f09d1">&#9670;&nbsp;</a></span>EMBER_TIMER_END</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EMBER_TIMER_END</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">description</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                            \</div>
+<div class="line">        auto end = std::chrono::high_resolution_clock::now();                                        \</div>
+<div class="line">        auto duration = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - start).count(); \</div>
+<div class="line">        LOG_INFO(<span class="stringliteral">&quot;%s took %d (µs), %.2f (ms)&quot;</span>, description, duration, (<span class="keywordtype">float</span>) duration / 1000.f);                             \</div>
+<div class="line">    } <span class="keywordflow">while</span> (0)</div>
+</div><!-- fragment -->
+<p>Timer macro end. </p>
+<dl class="section version"><dt>Version</dt><dd>0.0.4 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the messsage with the duration in ms </dd></dl>
+
+</div>
+</div>
+<a id="adb4e687ead50241c965f0ce3f1f40bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb4e687ead50241c965f0ce3f1f40bbe">&#9670;&nbsp;</a></span>EMBER_TIMER_START</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EMBER_TIMER_START</td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td>&#160;&#160;&#160;auto start = std::chrono::high_resolution_clock::now();</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Timer macro. </p>
+<dl class="section version"><dt>Version</dt><dd>0.0.4 </dd></dl>
+
+</div>
+</div>
 <a id="a1d80faf9837a02f60bdc662624b3a002"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1d80faf9837a02f60bdc662624b3a002">&#9670;&nbsp;</a></span>GL_ERROR</h2>
 

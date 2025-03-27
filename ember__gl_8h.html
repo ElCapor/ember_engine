@@ -73,7 +73,7 @@ $(function() {
 <div class="title">ember_gl.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ember__core_8h_source.html">ember_core.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="ember__core_8h_source.html">core/ember_core.h</a>&quot;</code><br />
 </div>
 <p><a href="ember__gl_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -97,15 +97,15 @@ Functions</h2></td></tr>
 <tr class="memitem:a1ad8e28031c11f263a4b0d6e0cb0d0f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a1ad8e28031c11f263a4b0d6e0cb0d0f6">EndDrawing</a> ()</td></tr>
 <tr class="memdesc:a1ad8e28031c11f263a4b0d6e0cb0d0f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">End of the drawing procedure (swap buffers)  <a href="ember__gl_8h.html#a1ad8e28031c11f263a4b0d6e0cb0d0f6">More...</a><br /></td></tr>
 <tr class="separator:a1ad8e28031c11f263a4b0d6e0cb0d0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a336b09e9b335932f70aa983aa036b9cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a336b09e9b335932f70aa983aa036b9cf">DrawText</a> (<a class="el" href="structFont.html">Font</a> &amp;font, const std::string &amp;text, <a class="el" href="structTransform.html">Transform</a> &amp;transform, <a class="el" href="structColor.html">Color</a> color, float kerning=0.0f)</td></tr>
-<tr class="memdesc:a336b09e9b335932f70aa983aa036b9cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw glyphs given a Loaded <a class="el" href="structFont.html">Font</a> and text.  <a href="ember__gl_8h.html#a336b09e9b335932f70aa983aa036b9cf">More...</a><br /></td></tr>
-<tr class="separator:a336b09e9b335932f70aa983aa036b9cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac57ab47fc1f7645ddcad6ee0b27b8c60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#ac57ab47fc1f7645ddcad6ee0b27b8c60">DrawTexture</a> (<a class="el" href="structTexture.html">Texture</a> texture, <a class="el" href="structRectangle.html">Rectangle</a> rect, <a class="el" href="structColor.html">Color</a> color={255, 255, 255, 255})</td></tr>
-<tr class="memdesc:ac57ab47fc1f7645ddcad6ee0b27b8c60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw <a class="el" href="structTexture.html">Texture</a> quad at given <a class="el" href="structRectangle.html">Rectangle</a> source.  <a href="ember__gl_8h.html#ac57ab47fc1f7645ddcad6ee0b27b8c60">More...</a><br /></td></tr>
-<tr class="separator:ac57ab47fc1f7645ddcad6ee0b27b8c60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a285289f443d9aceef922c51d351ae843"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a285289f443d9aceef922c51d351ae843">DrawTextureEx</a> (<a class="el" href="structTexture.html">Texture</a> texture, <a class="el" href="structRectangle.html">Rectangle</a> source, <a class="el" href="structRectangle.html">Rectangle</a> dest, glm::vec2 origin, float rotation, <a class="el" href="structColor.html">Color</a> color={255, 255, 255, 255})</td></tr>
-<tr class="memdesc:a285289f443d9aceef922c51d351ae843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw <a class="el" href="structTexture.html">Texture</a> quad extended.  <a href="ember__gl_8h.html#a285289f443d9aceef922c51d351ae843">More...</a><br /></td></tr>
-<tr class="separator:a285289f443d9aceef922c51d351ae843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f3e1a908a01a82f74b80238a8213abb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a2f3e1a908a01a82f74b80238a8213abb">DrawText</a> (<a class="el" href="structFont.html">Font</a> &amp;font, const std::string &amp;text, <a class="el" href="structTransform.html">Transform</a> transform, <a class="el" href="structColor.html">Color</a> color, float kerning=0.0f)</td></tr>
+<tr class="memdesc:a2f3e1a908a01a82f74b80238a8213abb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw glyphs given a Loaded <a class="el" href="structFont.html">Font</a> and text.  <a href="ember__gl_8h.html#a2f3e1a908a01a82f74b80238a8213abb">More...</a><br /></td></tr>
+<tr class="separator:a2f3e1a908a01a82f74b80238a8213abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21bc706aca19459b038469e14da3b413"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a21bc706aca19459b038469e14da3b413">DrawTexture</a> (<a class="el" href="structTexture.html">Texture</a> texture, <a class="el" href="structember_1_1Rectangle.html">ember::Rectangle</a> rect, <a class="el" href="structColor.html">Color</a> color={255, 255, 255, 255})</td></tr>
+<tr class="memdesc:a21bc706aca19459b038469e14da3b413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw <a class="el" href="structTexture.html">Texture</a> quad at given Rectangle source.  <a href="ember__gl_8h.html#a21bc706aca19459b038469e14da3b413">More...</a><br /></td></tr>
+<tr class="separator:a21bc706aca19459b038469e14da3b413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69fc6b9592a247fe55bc6f55c0b1708f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a69fc6b9592a247fe55bc6f55c0b1708f">DrawTextureEx</a> (<a class="el" href="structTexture.html">Texture</a> texture, <a class="el" href="structember_1_1Rectangle.html">ember::Rectangle</a> source, <a class="el" href="structember_1_1Rectangle.html">ember::Rectangle</a> dest, glm::vec2 origin, float rotation, <a class="el" href="structColor.html">Color</a> color={255, 255, 255, 255})</td></tr>
+<tr class="memdesc:a69fc6b9592a247fe55bc6f55c0b1708f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw <a class="el" href="structTexture.html">Texture</a> quad extended.  <a href="ember__gl_8h.html#a69fc6b9592a247fe55bc6f55c0b1708f">More...</a><br /></td></tr>
+<tr class="separator:a69fc6b9592a247fe55bc6f55c0b1708f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2bb34b5b5f03ce2484103c7adfabb56c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8h.html#a2bb34b5b5f03ce2484103c7adfabb56c">DrawLine</a> (glm::vec2 start, glm::vec2 end, <a class="el" href="structColor.html">Color</a> color, float thickness=1.0f)</td></tr>
 <tr class="memdesc:a2bb34b5b5f03ce2484103c7adfabb56c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw Lines between two points.  <a href="ember__gl_8h.html#a2bb34b5b5f03ce2484103c7adfabb56c">More...</a><br /></td></tr>
 <tr class="separator:a2bb34b5b5f03ce2484103c7adfabb56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -261,8 +261,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a336b09e9b335932f70aa983aa036b9cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a336b09e9b335932f70aa983aa036b9cf">&#9670;&nbsp;</a></span>DrawText()</h2>
+<a id="a2f3e1a908a01a82f74b80238a8213abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f3e1a908a01a82f74b80238a8213abb">&#9670;&nbsp;</a></span>DrawText()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,7 +282,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structTransform.html">Transform</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structTransform.html">Transform</a>&#160;</td>
           <td class="paramname"><em>transform</em>, </td>
         </tr>
         <tr>
@@ -327,8 +327,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ac57ab47fc1f7645ddcad6ee0b27b8c60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac57ab47fc1f7645ddcad6ee0b27b8c60">&#9670;&nbsp;</a></span>DrawTexture()</h2>
+<a id="a21bc706aca19459b038469e14da3b413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21bc706aca19459b038469e14da3b413">&#9670;&nbsp;</a></span>DrawTexture()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -342,7 +342,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structRectangle.html">Rectangle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structember_1_1Rectangle.html">ember::Rectangle</a>&#160;</td>
           <td class="paramname"><em>rect</em>, </td>
         </tr>
         <tr>
@@ -359,7 +359,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Draw <a class="el" href="structTexture.html">Texture</a> quad at given <a class="el" href="structRectangle.html">Rectangle</a> source. </p>
+<p>Draw <a class="el" href="structTexture.html">Texture</a> quad at given Rectangle source. </p>
 <ul>
 <li>Draw the texture</li>
 </ul>
@@ -376,8 +376,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a285289f443d9aceef922c51d351ae843"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a285289f443d9aceef922c51d351ae843">&#9670;&nbsp;</a></span>DrawTextureEx()</h2>
+<a id="a69fc6b9592a247fe55bc6f55c0b1708f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69fc6b9592a247fe55bc6f55c0b1708f">&#9670;&nbsp;</a></span>DrawTextureEx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -391,13 +391,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structRectangle.html">Rectangle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structember_1_1Rectangle.html">ember::Rectangle</a>&#160;</td>
           <td class="paramname"><em>source</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="structRectangle.html">Rectangle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="structember_1_1Rectangle.html">ember::Rectangle</a>&#160;</td>
           <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
@@ -434,8 +434,8 @@ Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">texture</td><td>The loaded <a class="el" href="structTexture.html">Texture</a> </td></tr>
-    <tr><td class="paramname">rect</td><td>The source <a class="el" href="structRectangle.html">Rectangle</a> </td></tr>
-    <tr><td class="paramname">dest</td><td>The destination <a class="el" href="structRectangle.html">Rectangle</a> </td></tr>
+    <tr><td class="paramname">rect</td><td>The source Rectangle </td></tr>
+    <tr><td class="paramname">dest</td><td>The destination Rectangle </td></tr>
     <tr><td class="paramname">origin</td><td>The origin point (texture origin e.g center) </td></tr>
     <tr><td class="paramname">rotation</td><td>The rotation angle (radians) </td></tr>
     <tr><td class="paramname">color</td><td><a class="el" href="structColor.html">Color</a> in RGBA </td></tr>

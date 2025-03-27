@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ember: engine/private/core/renderer/ember_core.cpp File Reference</title>
+<title>Ember: engine/private/core/ember_core.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,17 +63,18 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f9a494c4c711479f9e362edc48c2484.html">private</a></li><li class="navelem"><a class="el" href="dir_571f357659b741d36f8b1bc62f439c1a.html">core</a></li><li class="navelem"><a class="el" href="dir_b4653378a77afae0aa41e7d138b5aded.html">renderer</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_996f45160da62e1a3d7f6046fad68f51.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f9a494c4c711479f9e362edc48c2484.html">private</a></li><li class="navelem"><a class="el" href="dir_571f357659b741d36f8b1bc62f439c1a.html">core</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">ember_core.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="ember__core_8h_source.html">core/renderer/ember_core.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="ember__core_8h_source.html">core/ember_core.h</a>&quot;</code><br />
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -86,14 +87,57 @@ Functions</h2></td></tr>
 <tr class="memitem:a8ec5e00f463c74092e24f4b8baaec5df"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a8ec5e00f463c74092e24f4b8baaec5df">InitWindow</a> (const char *title, int width, int height, <a class="el" href="ember__core_8h.html#ae9c668e3a273ce92b9f4e134d0cbd6ce">RendererType</a> type, Uint64 flags)</td></tr>
 <tr class="memdesc:a8ec5e00f463c74092e24f4b8baaec5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize SDL window, renderer and modules.  <a href="ember__core_8cpp.html#a8ec5e00f463c74092e24f4b8baaec5df">More...</a><br /></td></tr>
 <tr class="separator:a8ec5e00f463c74092e24f4b8baaec5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b08b7b6c0446c86872381feb6a68015"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a7b08b7b6c0446c86872381feb6a68015">SetTargetFPS</a> (int fps)</td></tr>
-<tr class="memdesc:a7b08b7b6c0446c86872381feb6a68015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the target frames per second.  <a href="ember__core_8cpp.html#a7b08b7b6c0446c86872381feb6a68015">More...</a><br /></td></tr>
-<tr class="separator:a7b08b7b6c0446c86872381feb6a68015"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8951e1fd9e5e3d5220c5dbd29fd8b01"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#aa8951e1fd9e5e3d5220c5dbd29fd8b01">CloseWindow</a> ()</td></tr>
 <tr class="memdesc:aa8951e1fd9e5e3d5220c5dbd29fd8b01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deinitialize Window, <a class="el" href="structRenderer.html" title="Renderer struct.">Renderer</a> and modules.  <a href="ember__core_8cpp.html#aa8951e1fd9e5e3d5220c5dbd29fd8b01">More...</a><br /></td></tr>
 <tr class="separator:aa8951e1fd9e5e3d5220c5dbd29fd8b01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e62d5d4f53d8e6edf8e36c4b52567e9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a8e62d5d4f53d8e6edf8e36c4b52567e9">InitAudio</a> ()</td></tr>
+<tr class="memdesc:a8e62d5d4f53d8e6edf8e36c4b52567e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize Sound Engine.  <a href="ember__core_8cpp.html#a8e62d5d4f53d8e6edf8e36c4b52567e9">More...</a><br /></td></tr>
+<tr class="separator:a8e62d5d4f53d8e6edf8e36c4b52567e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ecbfb10ae42714535ce97f729b0c12e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structAudio.html">Audio</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a0ecbfb10ae42714535ce97f729b0c12e">Mix_LoadAudio</a> (const std::string &amp;file_Path)</td></tr>
+<tr class="memdesc:a0ecbfb10ae42714535ce97f729b0c12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load <a class="el" href="structAudio.html">Audio</a> and keep track of it.  <a href="ember__core_8cpp.html#a0ecbfb10ae42714535ce97f729b0c12e">More...</a><br /></td></tr>
+<tr class="separator:a0ecbfb10ae42714535ce97f729b0c12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21c164f12e2effd2a44787c2b8a3c9eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a21c164f12e2effd2a44787c2b8a3c9eb">Mix_PlayAudio</a> (<a class="el" href="structAudio.html">Audio</a> *audio, bool loop)</td></tr>
+<tr class="memdesc:a21c164f12e2effd2a44787c2b8a3c9eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Play audio.  <a href="ember__core_8cpp.html#a21c164f12e2effd2a44787c2b8a3c9eb">More...</a><br /></td></tr>
+<tr class="separator:a21c164f12e2effd2a44787c2b8a3c9eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa71ebe5434c09bb4032cb8774d4f58ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#aa71ebe5434c09bb4032cb8774d4f58ed">Mix_PauseAudio</a> (<a class="el" href="structAudio.html">Audio</a> *audio)</td></tr>
+<tr class="memdesc:aa71ebe5434c09bb4032cb8774d4f58ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause audio and fade out.  <a href="ember__core_8cpp.html#aa71ebe5434c09bb4032cb8774d4f58ed">More...</a><br /></td></tr>
+<tr class="separator:aa71ebe5434c09bb4032cb8774d4f58ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dfb2d160da85d51bddcab140b8f3377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a2dfb2d160da85d51bddcab140b8f3377">Mix_UnloadAudio</a> (<a class="el" href="structAudio.html">Audio</a> *audio)</td></tr>
+<tr class="memdesc:a2dfb2d160da85d51bddcab140b8f3377"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unload <a class="el" href="structAudio.html">Audio</a> allocated memory.  <a href="ember__core_8cpp.html#a2dfb2d160da85d51bddcab140b8f3377">More...</a><br /></td></tr>
+<tr class="separator:a2dfb2d160da85d51bddcab140b8f3377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a1171e6a1ac0bae09f6789d2da49c53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a3a1171e6a1ac0bae09f6789d2da49c53">CloseAudio</a> ()</td></tr>
+<tr class="memdesc:a3a1171e6a1ac0bae09f6789d2da49c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close Sound Engine and free allocated resources.  <a href="ember__core_8cpp.html#a3a1171e6a1ac0bae09f6789d2da49c53">More...</a><br /></td></tr>
+<tr class="separator:a3a1171e6a1ac0bae09f6789d2da49c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ac514708823258c25eb965ca7319b1d95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structCore.html">Core</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#ac514708823258c25eb965ca7319b1d95">core</a></td></tr>
+<tr class="separator:ac514708823258c25eb965ca7319b1d95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd63150de1598d744144a2d8e750fc2"><td class="memItemLeft" align="right" valign="top">ma_engine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__core_8cpp.html#a9dd63150de1598d744144a2d8e750fc2">engine</a></td></tr>
+<tr class="separator:a9dd63150de1598d744144a2d8e750fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a3a1171e6a1ac0bae09f6789d2da49c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1171e6a1ac0bae09f6789d2da49c53">&#9670;&nbsp;</a></span>CloseAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CloseAudio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Close Sound Engine and free allocated resources. </p>
+<dl class="section version"><dt>Version</dt><dd>0.0.3 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
 <a id="aa8951e1fd9e5e3d5220c5dbd29fd8b01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa8951e1fd9e5e3d5220c5dbd29fd8b01">&#9670;&nbsp;</a></span>CloseWindow()</h2>
 
@@ -192,6 +236,30 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a8e62d5d4f53d8e6edf8e36c4b52567e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e62d5d4f53d8e6edf8e36c4b52567e9">&#9670;&nbsp;</a></span>InitAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool InitAudio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize Sound Engine. </p>
+<ul>
+<li>mini-audio backend</li>
+</ul>
+<dl class="section version"><dt>Version</dt><dd>0.0.3 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>bool </dd></dl>
+
+</div>
+</div>
 <a id="a8ec5e00f463c74092e24f4b8baaec5df"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8ec5e00f463c74092e24f4b8baaec5df">&#9670;&nbsp;</a></span>InitWindow()</h2>
 
@@ -240,7 +308,7 @@ Functions</h2></td></tr>
 <ul>
 <li>Window</li>
 <li>Graphics Backend <code>OpenGL</code> or <code>Metal</code></li>
-<li>Audio</li>
+<li><a class="el" href="structAudio.html">Audio</a></li>
 <li><a class="el" href="structFont.html">Font</a></li>
 </ul>
 <dl class="section version"><dt>Version</dt><dd>0.0.1 </dd></dl>
@@ -261,31 +329,159 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b08b7b6c0446c86872381feb6a68015"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b08b7b6c0446c86872381feb6a68015">&#9670;&nbsp;</a></span>SetTargetFPS()</h2>
+<a id="a0ecbfb10ae42714535ce97f729b0c12e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ecbfb10ae42714535ce97f729b0c12e">&#9670;&nbsp;</a></span>Mix_LoadAudio()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SetTargetFPS </td>
+          <td class="memname"><a class="el" href="structAudio.html">Audio</a>* Mix_LoadAudio </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>fps</em></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>file_Path</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set the target frames per second. </p>
-<dl class="section version"><dt>Version</dt><dd>0.0.1 </dd></dl>
+<p>Load <a class="el" href="structAudio.html">Audio</a> and keep track of it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">fps</td><td>Target frames per second </td></tr>
+    <tr><td class="paramname">file_Path</td><td>Path to the audio file</td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.3 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="structAudio.html">Audio</a> allocated audio memory struct </dd></dl>
+
+</div>
+</div>
+<a id="aa71ebe5434c09bb4032cb8774d4f58ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa71ebe5434c09bb4032cb8774d4f58ed">&#9670;&nbsp;</a></span>Mix_PauseAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mix_PauseAudio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structAudio.html">Audio</a> *&#160;</td>
+          <td class="paramname"><em>audio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Pause audio and fade out. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">audio</td><td>Valid <a class="el" href="structAudio.html">Audio</a> struct pointer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.3 </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a21c164f12e2effd2a44787c2b8a3c9eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21c164f12e2effd2a44787c2b8a3c9eb">&#9670;&nbsp;</a></span>Mix_PlayAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mix_PlayAudio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structAudio.html">Audio</a> *&#160;</td>
+          <td class="paramname"><em>audio</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>loop</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Play audio. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">music</td><td>Valid <a class="el" href="structAudio.html">Audio</a> struct pointer </td></tr>
+    <tr><td class="paramname">loop</td><td>Play audio in <code>loop</code> or not</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.3 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a2dfb2d160da85d51bddcab140b8f3377"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dfb2d160da85d51bddcab140b8f3377">&#9670;&nbsp;</a></span>Mix_UnloadAudio()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Mix_UnloadAudio </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structAudio.html">Audio</a> *&#160;</td>
+          <td class="paramname"><em>audio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unload <a class="el" href="structAudio.html">Audio</a> allocated memory. </p>
+<ul>
+<li>Manually clear allocated audio or at the end will be freed automatically</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="ember__core_8h.html#a3a1171e6a1ac0bae09f6789d2da49c53" title="Close Sound Engine and free allocated resources.">CloseAudio</a></dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">audio</td><td>Valid <a class="el" href="structAudio.html">Audio</a> struct pointer</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.3 </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ac514708823258c25eb965ca7319b1d95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac514708823258c25eb965ca7319b1d95">&#9670;&nbsp;</a></span>core</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structCore.html">Core</a> core</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9dd63150de1598d744144a2d8e750fc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dd63150de1598d744144a2d8e750fc2">&#9670;&nbsp;</a></span>engine</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ma_engine engine</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

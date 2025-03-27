@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['core_207',['core',['../ember__core_8h.html#ac514708823258c25eb965ca7319b1d95',1,'ember_core.h']]],
-  ['current_208',['current',['../structCore.html#a6875efccdfe669a332b3dca0de720257',1,'Core']]]
+  ['core_270',['core',['../ember__core_8cpp.html#ac514708823258c25eb965ca7319b1d95',1,'core():&#160;ember_core.cpp'],['../ember__core_8h.html#ac514708823258c25eb965ca7319b1d95',1,'core():&#160;ember_core.cpp']]]
 ];

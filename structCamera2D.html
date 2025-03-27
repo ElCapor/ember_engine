@@ -79,8 +79,19 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a1d68c29b9e23a0db0c623e9643fa26dc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCamera2D.html#a1d68c29b9e23a0db0c623e9643fa26dc">Camera2D</a> (int view_width, int view_height, float <a class="el" href="structCamera2D.html#ac617e7e6d2ef6aa9df681b63d958d8ac">zoom</a>=1.0f)</td></tr>
+<tr class="separator:a1d68c29b9e23a0db0c623e9643fa26dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a375e047d2e5c2a5fc36e3b44091efe24"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCamera2D.html#a375e047d2e5c2a5fc36e3b44091efe24">GetViewMatrix</a> () const</td></tr>
 <tr class="separator:a375e047d2e5c2a5fc36e3b44091efe24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd988839797b27a5a38cb53e82646602"><td class="memItemLeft" align="right" valign="top">glm::vec4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCamera2D.html#acd988839797b27a5a38cb53e82646602">GetViewport</a> ()</td></tr>
+<tr class="memdesc:acd988839797b27a5a38cb53e82646602"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the viewport.  <a href="structCamera2D.html#acd988839797b27a5a38cb53e82646602">More...</a><br /></td></tr>
+<tr class="separator:acd988839797b27a5a38cb53e82646602"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab3e2d0b90b6c9be2ad606df6469b2ea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCamera2D.html#aab3e2d0b90b6c9be2ad606df6469b2ea">IsVisible</a> (const glm::vec3 &amp;position)</td></tr>
+<tr class="memdesc:aab3e2d0b90b6c9be2ad606df6469b2ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the position is visible by the camera.  <a href="structCamera2D.html#aab3e2d0b90b6c9be2ad606df6469b2ea">More...</a><br /></td></tr>
+<tr class="separator:aab3e2d0b90b6c9be2ad606df6469b2ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69a45f73a59c995d0b6eb3bf705b19fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structCamera2D.html#a69a45f73a59c995d0b6eb3bf705b19fe">Resize</a> (int view_width, int view_height)</td></tr>
+<tr class="memdesc:a69a45f73a59c995d0b6eb3bf705b19fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resize the camera view.  <a href="structCamera2D.html#a69a45f73a59c995d0b6eb3bf705b19fe">More...</a><br /></td></tr>
+<tr class="separator:a69a45f73a59c995d0b6eb3bf705b19fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -94,7 +105,50 @@ Public Attributes</h2></td></tr>
 <ul>
 <li>Projection <code>ortho</code> </li>
 </ul>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1d68c29b9e23a0db0c623e9643fa26dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d68c29b9e23a0db0c623e9643fa26dc">&#9670;&nbsp;</a></span>Camera2D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera2D::Camera2D </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>view_width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>view_height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>zoom</em> = <code>1.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a375e047d2e5c2a5fc36e3b44091efe24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a375e047d2e5c2a5fc36e3b44091efe24">&#9670;&nbsp;</a></span>GetViewMatrix()</h2>
 
@@ -109,6 +163,115 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd988839797b27a5a38cb53e82646602"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd988839797b27a5a38cb53e82646602">&#9670;&nbsp;</a></span>GetViewport()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::vec4 Camera2D::GetViewport </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the viewport. </p>
+<dl class="section version"><dt>Version</dt><dd>0.0.4 </dd></dl>
+
+</div>
+</div>
+<a id="aab3e2d0b90b6c9be2ad606df6469b2ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab3e2d0b90b6c9be2ad606df6469b2ea">&#9670;&nbsp;</a></span>IsVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Camera2D::IsVisible </td>
+          <td>(</td>
+          <td class="paramtype">const glm::vec3 &amp;&#160;</td>
+          <td class="paramname"><em>position</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the position is visible by the camera. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>Object position <a class="el" href="structTransform.html">Transform</a> (position) </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.4 </dd></dl>
+
+</div>
+</div>
+<a id="a69a45f73a59c995d0b6eb3bf705b19fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69a45f73a59c995d0b6eb3bf705b19fe">&#9670;&nbsp;</a></span>Resize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Camera2D::Resize </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>view_width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>view_height</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resize the camera view. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">view_width</td><td>Viewport width </td></tr>
+    <tr><td class="paramname">view_height</td><td>Viewport height</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.4 </dd></dl>
 
 </div>
 </div>

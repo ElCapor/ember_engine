@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['position_83',['position',['../structTransform.html#aa357f8eb780f4ef195027d1c636baa36',1,'Transform::position()'],['../structVertex.html#a030819fdc241743bbd3e180a6b132ed3',1,'Vertex::position()']]],
-  ['previous_84',['previous',['../structCore.html#a81f3c594e83d06fae7dbf3055fbe7310',1,'Core']]]
+  ['pause_108',['Pause',['../classTimeManager.html#a77760dd750a7dee52344cd12e4f97629',1,'TimeManager']]],
+  ['position_109',['position',['../structTransform.html#aa357f8eb780f4ef195027d1c636baa36',1,'Transform::position()'],['../structVertex.html#a030819fdc241743bbd3e180a6b132ed3',1,'Vertex::position()']]]
 ];

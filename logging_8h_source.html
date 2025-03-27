@@ -84,13 +84,13 @@ $(function() {
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="logging_8h.html#a378e28bfcb78d17285210d6bbb70a083">   26</a></span>&#160;<span class="preprocessor">#define LOG_INFO(...) SDL_LogInfo(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="logging_8h.html#a754b3d074e0af4ad3c7b918dd77ecb2d">   35</a></span>&#160;<span class="preprocessor">#define LOG_DEBUG(...)    SDL_LogDebug(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="logging_8h.html#a754b3d074e0af4ad3c7b918dd77ecb2d">   35</a></span>&#160;<span class="preprocessor">#define LOG_DEBUG(...) SDL_LogDebug(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
-<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="logging_8h.html#a9e7072460e1de0d89f6c8e5b7fcf1260">   44</a></span>&#160;<span class="preprocessor">#define LOG_VERBOSE(...)  SDL_LogVerbose(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="logging_8h.html#a9e7072460e1de0d89f6c8e5b7fcf1260">   44</a></span>&#160;<span class="preprocessor">#define LOG_VERBOSE(...) SDL_LogVerbose(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="logging_8h.html#add82efa459e0af380b68522c29b9fd44">   53</a></span>&#160;<span class="preprocessor">#define LOG_WARN(...)     SDL_LogWarn(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="logging_8h.html#add82efa459e0af380b68522c29b9fd44">   53</a></span>&#160;<span class="preprocessor">#define LOG_WARN(...) SDL_LogWarn(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="logging_8h.html#a58c994180e09d2f6400133b19b1d7036">   62</a></span>&#160;<span class="preprocessor">#define LOG_TRACE(...)    SDL_LogTrace(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno"><a class="line" href="logging_8h.html#a58c994180e09d2f6400133b19b1d7036">   62</a></span>&#160;<span class="preprocessor">#define LOG_TRACE(...) SDL_LogTrace(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160; </div>
 <div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="logging_8h.html#a4091a2d7d849a8b5eded40d8723b8768">   71</a></span>&#160;<span class="preprocessor">#define LOG_CRITICAL(...) SDL_LogCritical(SDL_LOG_CATEGORY_APPLICATION, TRACE_FILE_LOG __VA_ARGS__);</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
@@ -108,6 +108,17 @@ $(function() {
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">            LOG_ERROR(&quot;API ERROR_CODE: %d&quot;</span>, error); \</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        }                                           \</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160; </div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="logging_8h.html#adb4e687ead50241c965f0ce3f1f40bbe">  107</a></span>&#160;<span class="preprocessor">#define EMBER_TIMER_START() auto start = std::chrono::high_resolution_clock::now();</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160; </div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160; </div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="logging_8h.html#afab28aa2dcb1df66ad5405fee44f09d1">  116</a></span>&#160;<span class="preprocessor">#define EMBER_TIMER_END(description)                                                             \</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">    do {                                                                                            \</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">        auto end = std::chrono::high_resolution_clock::now();                                        \</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">        auto duration = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - start).count(); \</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">        LOG_INFO(&quot;%s took %d (µs), %.2f (ms)&quot;</span>, description, duration, (float) duration / 1000.f);                             \</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    } while (0)</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
 <div class="ttc" id="aimports_8h_html"><div class="ttname"><a href="imports_8h.html">imports.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->

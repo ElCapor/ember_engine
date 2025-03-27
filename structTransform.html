@@ -76,7 +76,15 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a144ce8dcafd13ca66acb5a1636cfc297"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTransform.html#a144ce8dcafd13ca66acb5a1636cfc297">Transform</a> ()=default</td></tr>
+<tr class="separator:a144ce8dcafd13ca66acb5a1636cfc297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adacad9adbcfc5cee971c71809ff93a75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTransform.html#adacad9adbcfc5cee971c71809ff93a75">Transform</a> (glm::vec3 <a class="el" href="structTransform.html#aa357f8eb780f4ef195027d1c636baa36">position</a>, glm::vec3 <a class="el" href="structTransform.html#aefd4a6bf41e01cf5898fd57430d93dea">rotation</a>, glm::vec3 <a class="el" href="structTransform.html#acf6ab53778448fd2f2d8a367c14e7f95">scale</a>)</td></tr>
+<tr class="separator:adacad9adbcfc5cee971c71809ff93a75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad4c0b4fab34fba151dc39f8a63494e"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTransform.html#a7ad4c0b4fab34fba151dc39f8a63494e">GetModelMatrix2D</a> () const</td></tr>
+<tr class="memdesc:a7ad4c0b4fab34fba151dc39f8a63494e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the model matrix 2D.  <a href="structTransform.html#a7ad4c0b4fab34fba151dc39f8a63494e">More...</a><br /></td></tr>
+<tr class="separator:a7ad4c0b4fab34fba151dc39f8a63494e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a00c2fa3f8c8293aa5dfe7f72db87fb"><td class="memItemLeft" align="right" valign="top">glm::mat4&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTransform.html#a8a00c2fa3f8c8293aa5dfe7f72db87fb">GetModelMatrix</a> () const</td></tr>
+<tr class="memdesc:a8a00c2fa3f8c8293aa5dfe7f72db87fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the model matrix 3D ( TODO )  <a href="structTransform.html#a8a00c2fa3f8c8293aa5dfe7f72db87fb">More...</a><br /></td></tr>
 <tr class="separator:a8a00c2fa3f8c8293aa5dfe7f72db87fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -88,6 +96,74 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:acf6ab53778448fd2f2d8a367c14e7f95"><td class="memItemLeft" align="right" valign="top">glm::vec3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structTransform.html#acf6ab53778448fd2f2d8a367c14e7f95">scale</a> = glm::vec3(1.0f, 1.0f, 1.0f)</td></tr>
 <tr class="separator:acf6ab53778448fd2f2d8a367c14e7f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a144ce8dcafd13ca66acb5a1636cfc297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144ce8dcafd13ca66acb5a1636cfc297">&#9670;&nbsp;</a></span>Transform() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform::Transform </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adacad9adbcfc5cee971c71809ff93a75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adacad9adbcfc5cee971c71809ff93a75">&#9670;&nbsp;</a></span>Transform() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform::Transform </td>
+          <td>(</td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">glm::vec3&#160;</td>
+          <td class="paramname"><em>scale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a8a00c2fa3f8c8293aa5dfe7f72db87fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a00c2fa3f8c8293aa5dfe7f72db87fb">&#9670;&nbsp;</a></span>GetModelMatrix()</h2>
@@ -103,6 +179,28 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get the model matrix 3D ( TODO ) </p>
+
+</div>
+</div>
+<a id="a7ad4c0b4fab34fba151dc39f8a63494e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad4c0b4fab34fba151dc39f8a63494e">&#9670;&nbsp;</a></span>GetModelMatrix2D()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">glm::mat4 Transform::GetModelMatrix2D </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the model matrix 2D. </p>
+<dl class="section version"><dt>Version</dt><dd>0.0.2 </dd></dl>
 
 </div>
 </div>
