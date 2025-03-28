@@ -78,9 +78,27 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;std::string <a class="code" href="file__system_8h.html#a40d1357c1525d821eb7d846c404aa75a">LoadAssetsFile</a>(<span class="keyword">const</span> std::string&amp; file_path);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;std::vector&lt;char&gt; <a class="code" href="file__system_8h.html#a7fc4975571bfb41e6143425e07afea5a">LoadFileIntoMemory</a>(<span class="keyword">const</span> std::string&amp; file_path);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="structSDL__File.html">   28</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structSDL__File.html">SDL_File</a> {</div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="structSDL__File.html#acb9e079f01924967d6eed4e3a741371c">   29</a></span>&#160;   SDL_IOStream* <a class="code" href="structSDL__File.html#acb9e079f01924967d6eed4e3a741371c">rw</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;};</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="structEmber__VFS.html">   32</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structEmber__VFS.html">Ember_VFS</a></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
+<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="structEmber__VFS.html#a5929e4226c5ab5f0015fe96439029744">   34</a></span>&#160;    ma_vfs_callbacks <a class="code" href="structEmber__VFS.html#a5929e4226c5ab5f0015fe96439029744">base</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;};</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;ma_result <a class="code" href="file__system_8h.html#a2b226cb98c141e93cff18d7ad6b5a2cf">Ember_Init_VFS</a>(<a class="code" href="structEmber__VFS.html">Ember_VFS</a>* vfs);</div>
+<div class="ttc" id="afile__system_8h_html_a2b226cb98c141e93cff18d7ad6b5a2cf"><div class="ttname"><a href="file__system_8h.html#a2b226cb98c141e93cff18d7ad6b5a2cf">Ember_Init_VFS</a></div><div class="ttdeci">ma_result Ember_Init_VFS(Ember_VFS *vfs)</div><div class="ttdef"><b>Definition:</b> file_system.cpp:121</div></div>
 <div class="ttc" id="afile__system_8h_html_a40d1357c1525d821eb7d846c404aa75a"><div class="ttname"><a href="file__system_8h.html#a40d1357c1525d821eb7d846c404aa75a">LoadAssetsFile</a></div><div class="ttdeci">std::string LoadAssetsFile(const std::string &amp;file_path)</div><div class="ttdoc">Loads a given file from assets folder.</div><div class="ttdef"><b>Definition:</b> file_system.cpp:4</div></div>
 <div class="ttc" id="afile__system_8h_html_a7fc4975571bfb41e6143425e07afea5a"><div class="ttname"><a href="file__system_8h.html#a7fc4975571bfb41e6143425e07afea5a">LoadFileIntoMemory</a></div><div class="ttdeci">std::vector&lt; char &gt; LoadFileIntoMemory(const std::string &amp;file_path)</div><div class="ttdoc">Loads a given file from assets folder into memory.</div><div class="ttdef"><b>Definition:</b> file_system.cpp:13</div></div>
 <div class="ttc" id="alogging_8h_html"><div class="ttname"><a href="logging_8h.html">logging.h</a></div></div>
+<div class="ttc" id="astructEmber__VFS_html"><div class="ttname"><a href="structEmber__VFS.html">Ember_VFS</a></div><div class="ttdef"><b>Definition:</b> file_system.h:33</div></div>
+<div class="ttc" id="astructEmber__VFS_html_a5929e4226c5ab5f0015fe96439029744"><div class="ttname"><a href="structEmber__VFS.html#a5929e4226c5ab5f0015fe96439029744">Ember_VFS::base</a></div><div class="ttdeci">ma_vfs_callbacks base</div><div class="ttdef"><b>Definition:</b> file_system.h:34</div></div>
+<div class="ttc" id="astructSDL__File_html"><div class="ttname"><a href="structSDL__File.html">SDL_File</a></div><div class="ttdef"><b>Definition:</b> file_system.h:28</div></div>
+<div class="ttc" id="astructSDL__File_html_acb9e079f01924967d6eed4e3a741371c"><div class="ttname"><a href="structSDL__File.html#acb9e079f01924967d6eed4e3a741371c">SDL_File::rw</a></div><div class="ttdeci">SDL_IOStream * rw</div><div class="ttdef"><b>Definition:</b> file_system.h:29</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

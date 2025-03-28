@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ember: Ember Engine &lt;a href=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/&quot;&gt;&lt;img src=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/badge.svg?branch=main&quot; alt=&quot;build&quot;/&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml&quot;&gt;&lt;img src=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml/badge.svg?branch=main&quot; alt=&quot;docs&quot;/&gt;&lt;/a&gt;</title>
+<title>Ember: Ember &lt;a href=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/&quot;&gt;&lt;img src=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/badge.svg?branch=main&quot; alt=&quot;build&quot;/&gt;&lt;/a&gt; &lt;a href=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml&quot;&gt;&lt;img src=&quot;https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml/badge.svg?branch=main&quot; alt=&quot;docs&quot;/&gt;&lt;/a&gt;</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,11 +64,14 @@ $(function() {
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Ember Engine <a href="https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/"><img src="https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/badge.svg?branch=main" alt="build" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml"><img src="https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml/badge.svg?branch=main" alt="docs" style="pointer-events: none;" class="inline"/></a> </div>  </div>
+<div class="title">Ember <a href="https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/"><img src="https://github.com/vsaint1/ember_engine/actions/workflows/build.yaml/badge.svg?branch=main" alt="build" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml"><img src="https://github.com/vsaint1/ember_engine/actions/workflows/docs.yaml/badge.svg?branch=main" alt="docs" style="pointer-events: none;" class="inline"/></a> </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p><a class="anchor" id="md_README"></a></p>
-<p><b>Ember Engine</b> is a lightweight and modular <b>2D game engine</b> written in <b>C/C++</b>, designed to be simple yet powerful. It aims to provide developers with a flexible cross-platform solution to build 2D games and applications.</p>
+<p><b>Ember</b> is a lightweight and modular <b>2D/3D game engine/framework</b> written in <b>C/C++</b>, designed to be simple yet powerful. It aims to provide developers with a flexible cross-platform solution to build 2D/3D games and applications.</p>
+<blockquote class="doxtable">
+<p>⚠️ <b>Note:</b> Currently has no Editor. </p>
+</blockquote>
 <h2><a class="anchor" id="autotoc_md1"></a>
 ✨ Features</h2>
 <ul>
@@ -86,22 +89,31 @@ $(function() {
 <li>Metal (macOS, iOS) **(coming soon)**</li>
 </ul>
 </li>
-<li>🛠️ <b>Lightweight <a class="el" href="structCore.html" title="Core struct (engine stuff)">Core</a></b>: Minimal dependencies for fast builds and portability.</li>
+<li>🛠️ <b>Lightweight <a class="el" href="structCore.html">Core</a></b>: Minimal dependencies for fast builds and portability.</li>
 <li>🎮 <b>Input, <a class="el" href="structAudio.html">Audio</a>, and <a class="el" href="structTexture.html">Texture</a> Management</b>: Simple and extensible input, audio, and texture management.</li>
 </ul>
+<h2><a class="anchor" id="autotoc_md2"></a>
+📂 File Types</h2>
+<ul>
+<li>📸 <b>Image</b>: PNG, JPEG, WEBP, GIF, etc...</li>
+<li>🔠 <b><a class="el" href="structFont.html">Font</a></b>: TTF, SDF, etc...</li>
+<li>🔈 <b><a class="el" href="structAudio.html">Audio</a></b>: WAV, MP3, FLAC, OGG, etc...</li>
+<li>🟥 <b>Model</b>: <code>TODO</code></li>
+</ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md3"></a>
+<h2><a class="anchor" id="autotoc_md4"></a>
 📦 Dependencies</h2>
 <ul>
-<li><a href="https://github.com/libsdl-org/SDL">sdl3</a> (Windowing, Events, Input, <a class="el" href="structAudio.html">Audio</a>, etc.)</li>
-<li><a href="https://github.com/libsdl-org/SDL_mixer">sdl3_mixer</a> (<a class="el" href="structAudio.html">Audio</a> mixer)</li>
+<li><a href="https://github.com/libsdl-org/SDL">sdl3</a> (Windowing, Inputs, Events, <a class="el" href="structAudio.html">Audio</a>, ...)</li>
 <li><a href="https://github.com/nothings/stb">stb_image</a> (Image loader)</li>
 <li><a href="https://github.com/nothings/stb">stb_truetype</a> (TrueType/SDF font loader)</li>
+<li><a href="https://github.com/nothings/stb">stb_vorbis</a> (OGG Vorbis audio loader/decoder)</li>
+<li><a href="https://github.com/mackron/miniaudio">mini_audio</a> (<a class="el" href="structAudio.html">Audio</a> Engine backend)</li>
 <li><a href="https://github.com/Dav1dde/glad">glad</a> (OpenGL/ES Loader)</li>
 <li><a href="https://github.com/g-truc/glm">glm</a> (C++ math library)</li>
 </ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md5"></a>
+<h2><a class="anchor" id="autotoc_md6"></a>
 📱 Supported Platforms Overview</h2>
 <table class="markdownTable">
 <tr class="markdownTableHead">
@@ -126,13 +138,13 @@ $(function() {
 <blockquote class="doxtable">
 <p>⚠️ <b>Note:</b> Metal backend is planned for future versions. </p>
 </blockquote>
-<h1><a class="anchor" id="autotoc_md6"></a>
+<h1><a class="anchor" id="autotoc_md7"></a>
 &lt;/blockquote&gt;</h1>
-<h2><a class="anchor" id="autotoc_md7"></a>
+<h2><a class="anchor" id="autotoc_md8"></a>
 📚 Documentation &amp; Examples</h2>
-<p>Documentation and usage examples are coming soon.</p>
+<p><a href="https://vsaint1.github.io/ember_engine">Documentation</a> <a href="https://github.com/vsaint1/ember_engine/tree/main/examples">Examples</a></p>
 <hr  />
-<h2><a class="anchor" id="autotoc_md9"></a>
+<h2><a class="anchor" id="autotoc_md10"></a>
 🛠️ Build System</h2>
 <p>Ember Engine uses <a href="https://cmake.org/">cmake</a> as its build system and supports the following toolchains:</p><ul>
 <li>Visual Studio (Windows)</li>
@@ -142,11 +154,11 @@ $(function() {
 <li>Emscripten (WebGL)</li>
 </ul>
 <hr  />
-<h2><a class="anchor" id="autotoc_md11"></a>
+<h2><a class="anchor" id="autotoc_md12"></a>
 ⚠️ Disclaimer</h2>
 <p>This project was created for educational and personal purposes. It is <b>not</b> intended for commercial use.</p>
 <hr  />
-<h2><a class="anchor" id="autotoc_md13"></a>
+<h2><a class="anchor" id="autotoc_md14"></a>
 📝 License</h2>
 <p>This project is distributed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>. </p>
 </div></div><!-- PageDoc -->

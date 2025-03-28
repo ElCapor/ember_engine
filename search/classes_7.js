@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['texture_179',['Texture',['../structTexture.html',1,'']]],
-  ['timemanager_180',['TimeManager',['../classTimeManager.html',1,'']]],
-  ['transform_181',['Transform',['../structTransform.html',1,'']]]
+  ['sdl_5ffile_201',['SDL_File',['../structSDL__File.html',1,'']]],
+  ['shader_202',['Shader',['../classShader.html',1,'']]]
 ];

@@ -77,7 +77,7 @@ $(function() {
 : <a class="el" href="imports_8h.html#adf16e31ed83557124b89ff1b06617ded">imports.h</a>
 </li>
 <li>audios
-: <a class="el" href="ember__core_8h.html#a4769b7f4bc3278842da1f382eaac78f2">ember_core.h</a>
+: <a class="el" href="ember__audio_8h.html#a4769b7f4bc3278842da1f382eaac78f2">ember_audio.h</a>
 </li>
 </ul>
 
@@ -103,16 +103,17 @@ $(function() {
 , <a class="el" href="ember__gl_8h.html#aa387874e93a8677e850379e9895756c2">ember_gl.h</a>
 </li>
 <li>CloseAudio()
-: <a class="el" href="ember__core_8cpp.html#a3a1171e6a1ac0bae09f6789d2da49c53">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#a3a1171e6a1ac0bae09f6789d2da49c53">ember_core.h</a>
+: <a class="el" href="ember__audio_8cpp.html#a3a1171e6a1ac0bae09f6789d2da49c53">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a3a1171e6a1ac0bae09f6789d2da49c53">ember_audio.h</a>
 </li>
 <li>CloseWindow()
 : <a class="el" href="ember__core_8cpp.html#aa8951e1fd9e5e3d5220c5dbd29fd8b01">ember_core.cpp</a>
 , <a class="el" href="ember__core_8h.html#aa8951e1fd9e5e3d5220c5dbd29fd8b01">ember_core.h</a>
 </li>
 <li>core
-: <a class="el" href="ember__core_8cpp.html#ac514708823258c25eb965ca7319b1d95">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#ac514708823258c25eb965ca7319b1d95">ember_core.h</a>
+: <a class="el" href="engine_8cpp.html#ac514708823258c25eb965ca7319b1d95">engine.cpp</a>
+, <a class="el" href="ember__audio_8h.html#ac514708823258c25eb965ca7319b1d95">ember_audio.h</a>
+, <a class="el" href="engine_8h.html#ac514708823258c25eb965ca7319b1d95">engine.h</a>
 </li>
 <li>CreateRenderer()
 : <a class="el" href="ember__core_8cpp.html#a1e25563447bf5532ea51dd09e480d358">ember_core.cpp</a>
@@ -146,6 +147,10 @@ $(function() {
 
 
 <h3><a id="index_e"></a>- e -</h3><ul>
+<li>Ember_Init_VFS()
+: <a class="el" href="file__system_8cpp.html#a2b226cb98c141e93cff18d7ad6b5a2cf">file_system.cpp</a>
+, <a class="el" href="file__system_8h.html#a2b226cb98c141e93cff18d7ad6b5a2cf">file_system.h</a>
+</li>
 <li>EMBER_TIMER_END
 : <a class="el" href="logging_8h.html#afab28aa2dcb1df66ad5405fee44f09d1">logging.h</a>
 </li>
@@ -161,8 +166,9 @@ $(function() {
 , <a class="el" href="ember__gl_8h.html#a8c1cd8171e441bcdb18f9fb2c6dbac75">ember_gl.h</a>
 </li>
 <li>engine
-: <a class="el" href="ember__core_8cpp.html#a9dd63150de1598d744144a2d8e750fc2">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#a9dd63150de1598d744144a2d8e750fc2">ember_core.h</a>
+: <a class="el" href="engine_8cpp.html#a9dd63150de1598d744144a2d8e750fc2">engine.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a9dd63150de1598d744144a2d8e750fc2">ember_audio.h</a>
+, <a class="el" href="engine_8h.html#a9dd63150de1598d744144a2d8e750fc2">engine.h</a>
 </li>
 <li>ENGINE_NAME
 : <a class="el" href="imports_8h.html#a669ad3a8d3b77fa1a03004b592328382">imports.h</a>
@@ -189,8 +195,8 @@ $(function() {
 
 <h3><a id="index_i"></a>- i -</h3><ul>
 <li>InitAudio()
-: <a class="el" href="ember__core_8cpp.html#a8e62d5d4f53d8e6edf8e36c4b52567e9">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#a8e62d5d4f53d8e6edf8e36c4b52567e9">ember_core.h</a>
+: <a class="el" href="ember__audio_8cpp.html#a8e62d5d4f53d8e6edf8e36c4b52567e9">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a8e62d5d4f53d8e6edf8e36c4b52567e9">ember_audio.h</a>
 </li>
 <li>InitWindow()
 : <a class="el" href="ember__core_8cpp.html#a8ec5e00f463c74092e24f4b8baaec5df">ember_core.cpp</a>
@@ -248,20 +254,35 @@ $(function() {
 : <a class="el" href="ember__core_8h.html#ae9c668e3a273ce92b9f4e134d0cbd6cea1d94993b8bf3e32473e513152cfa1c68">ember_core.h</a>
 </li>
 <li>Mix_LoadAudio()
-: <a class="el" href="ember__core_8cpp.html#a0ecbfb10ae42714535ce97f729b0c12e">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#a0ecbfb10ae42714535ce97f729b0c12e">ember_core.h</a>
+: <a class="el" href="ember__audio_8cpp.html#a0ecbfb10ae42714535ce97f729b0c12e">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a0ecbfb10ae42714535ce97f729b0c12e">ember_audio.h</a>
 </li>
 <li>Mix_PauseAudio()
-: <a class="el" href="ember__core_8cpp.html#aa71ebe5434c09bb4032cb8774d4f58ed">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#aa71ebe5434c09bb4032cb8774d4f58ed">ember_core.h</a>
+: <a class="el" href="ember__audio_8cpp.html#aa71ebe5434c09bb4032cb8774d4f58ed">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#aa71ebe5434c09bb4032cb8774d4f58ed">ember_audio.h</a>
 </li>
 <li>Mix_PlayAudio()
-: <a class="el" href="ember__core_8cpp.html#a21c164f12e2effd2a44787c2b8a3c9eb">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#a72b9294d5cb05ee34e1d707a155888fc">ember_core.h</a>
+: <a class="el" href="ember__audio_8cpp.html#a21c164f12e2effd2a44787c2b8a3c9eb">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a72b9294d5cb05ee34e1d707a155888fc">ember_audio.h</a>
+</li>
+<li>Mix_SetGlobalVolume()
+: <a class="el" href="ember__audio_8cpp.html#a72b0c1c545c8acf2fb0aa446984bf57c">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a72b0c1c545c8acf2fb0aa446984bf57c">ember_audio.h</a>
+</li>
+<li>Mix_SetVolume()
+: <a class="el" href="ember__audio_8cpp.html#acd4f28d1d8906fbb21f057057da02a0f">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#acd4f28d1d8906fbb21f057057da02a0f">ember_audio.h</a>
 </li>
 <li>Mix_UnloadAudio()
-: <a class="el" href="ember__core_8cpp.html#a2dfb2d160da85d51bddcab140b8f3377">ember_core.cpp</a>
-, <a class="el" href="ember__core_8h.html#a2dfb2d160da85d51bddcab140b8f3377">ember_core.h</a>
+: <a class="el" href="ember__audio_8cpp.html#a2dfb2d160da85d51bddcab140b8f3377">ember_audio.cpp</a>
+, <a class="el" href="ember__audio_8h.html#a2dfb2d160da85d51bddcab140b8f3377">ember_audio.h</a>
+</li>
+</ul>
+
+
+<h3><a id="index_n"></a>- n -</h3><ul>
+<li>NUM_CHANNELS
+: <a class="el" href="ember__audio_8h.html#ae5597ce31d23d11493e6e674fe257d73">ember_audio.h</a>
 </li>
 </ul>
 
@@ -284,6 +305,24 @@ $(function() {
 
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>SAMPLE_RATE
+: <a class="el" href="ember__audio_8h.html#a4b76a0c2859cfd819a343a780070ee2b">ember_audio.h</a>
+</li>
+<li>sdl_vfs_onClose()
+: <a class="el" href="file__system_8cpp.html#a986fa403871dd79b006f37d476d2843e">file_system.cpp</a>
+</li>
+<li>sdl_vfs_onOpen()
+: <a class="el" href="file__system_8cpp.html#a52362a1eedcff14e29433735558bec02">file_system.cpp</a>
+</li>
+<li>sdl_vfs_onRead()
+: <a class="el" href="file__system_8cpp.html#a58b62b73182fd79610a0c858c7937ebb">file_system.cpp</a>
+</li>
+<li>sdl_vfs_onSeek()
+: <a class="el" href="file__system_8cpp.html#ab6759c695afc2ec5154b1ecd2a366fd9">file_system.cpp</a>
+</li>
+<li>sdl_vfs_onTell()
+: <a class="el" href="file__system_8cpp.html#aae805ea7a70f6697ec8dc15d060c6165">file_system.cpp</a>
+</li>
 <li>SHADER_HEADER
 : <a class="el" href="shader_8cpp.html#abb534a04b45a0e372ef98d7cf8453a69">shader.cpp</a>
 </li>

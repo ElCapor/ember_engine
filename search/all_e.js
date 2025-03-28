@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['pause_108',['Pause',['../classTimeManager.html#a77760dd750a7dee52344cd12e4f97629',1,'TimeManager']]],
-  ['position_109',['position',['../structTransform.html#aa357f8eb780f4ef195027d1c636baa36',1,'Transform::position()'],['../structVertex.html#a030819fdc241743bbd3e180a6b132ed3',1,'Vertex::position()']]]
+  ['opengl_122',['OPENGL',['../ember__core_8h.html#ae9c668e3a273ce92b9f4e134d0cbd6cea4cd6ad65d345a77065fda71b3751ec24',1,'ember_core.h']]]
 ];
