@@ -9,7 +9,7 @@ var searchData=
   ['ember_5fcore_2eh_48',['ember_core.h',['../ember__core_8h.html',1,'']]],
   ['ember_5fgl_2ecpp_49',['ember_gl.cpp',['../ember__gl_8cpp.html',1,'']]],
   ['ember_5fgl_2eh_50',['ember_gl.h',['../ember__gl_8h.html',1,'']]],
-  ['ember_5finit_5fvfs_51',['Ember_Init_VFS',['../file__system_8cpp.html#a2b226cb98c141e93cff18d7ad6b5a2cf',1,'Ember_Init_VFS(Ember_VFS *vfs):&#160;file_system.cpp'],['../file__system_8h.html#a2b226cb98c141e93cff18d7ad6b5a2cf',1,'Ember_Init_VFS(Ember_VFS *vfs):&#160;file_system.cpp']]],
+  ['ember_5finit_5fvfs_51',['Ember_Init_VFS',['../file__system_8h.html#a2b226cb98c141e93cff18d7ad6b5a2cf',1,'Ember_Init_VFS(Ember_VFS *vfs):&#160;file_system.cpp'],['../file__system_8cpp.html#a2b226cb98c141e93cff18d7ad6b5a2cf',1,'Ember_Init_VFS(Ember_VFS *vfs):&#160;file_system.cpp']]],
   ['ember_5ftimer_5fend_52',['EMBER_TIMER_END',['../logging_8h.html#afab28aa2dcb1df66ad5405fee44f09d1',1,'logging.h']]],
   ['ember_5ftimer_5fstart_53',['EMBER_TIMER_START',['../logging_8h.html#adb4e687ead50241c965f0ce3f1f40bbe',1,'logging.h']]],
   ['ember_5fvfs_54',['Ember_VFS',['../structEmber__VFS.html',1,'']]],
@@ -20,5 +20,7 @@ var searchData=
   ['engine_2ecpp_59',['engine.cpp',['../engine_8cpp.html',1,'']]],
   ['engine_2eh_60',['engine.h',['../engine_8h.html',1,'']]],
   ['engine_5fname_61',['ENGINE_NAME',['../imports_8h.html#a669ad3a8d3b77fa1a03004b592328382',1,'imports.h']]],
-  ['engine_5fversion_5fstr_62',['ENGINE_VERSION_STR',['../imports_8h.html#aaaf4fa0d2dd847f90879c3a1445f0f93',1,'imports.h']]]
+  ['engine_5fstructs_2ecpp_62',['engine_structs.cpp',['../engine__structs_8cpp.html',1,'']]],
+  ['engine_5fstructs_2eh_63',['engine_structs.h',['../engine__structs_8h.html',1,'']]],
+  ['engine_5fversion_5fstr_64',['ENGINE_VERSION_STR',['../imports_8h.html#aaaf4fa0d2dd847f90879c3a1445f0f93',1,'imports.h']]]
 ];
