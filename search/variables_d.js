@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['r_344',['r',['../structColor.html#ab9a9c7134511f9b116a6fcc81a303ba6',1,'Color']]],
-  ['renderer_345',['renderer',['../ember__core_8h.html#aee5ec0ba39c124cbd88d9b038566b03c',1,'ember_core.h']]],
-  ['rotation_346',['rotation',['../structTransform.html#aefd4a6bf41e01cf5898fd57430d93dea',1,'Transform']]],
-  ['rw_347',['rw',['../structSDL__File.html#acb9e079f01924967d6eed4e3a741371c',1,'SDL_File']]]
+  ['position_373',['position',['../structTransform.html#aa357f8eb780f4ef195027d1c636baa36',1,'Transform::position()'],['../structVertex.html#a030819fdc241743bbd3e180a6b132ed3',1,'Vertex::position()']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['renderertype_376',['RendererType',['../ember__core_8h.html#ae9c668e3a273ce92b9f4e134d0cbd6ce',1,'ember_core.h']]]
+  ['batterylevel_406',['BatteryLevel',['../system__info_8h.html#ac8dce038d65272fd2301359f0c3eba56',1,'system_info.h']]]
 ];

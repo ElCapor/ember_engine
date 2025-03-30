@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['num_5fchannels_395',['NUM_CHANNELS',['../ember__audio_8h.html#ae5597ce31d23d11493e6e674fe257d73',1,'ember_audio.h']]]
+  ['shader_5fheader_427',['SHADER_HEADER',['../shader_8cpp.html#abb534a04b45a0e372ef98d7cf8453a69',1,'shader.cpp']]],
+  ['stringify_428',['STRINGIFY',['../logging_8h.html#a6df1d22fb5f09eccc23b9f399670cfd7',1,'logging.h']]]
 ];

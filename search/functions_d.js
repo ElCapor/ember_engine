@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['unloadtexture_307',['UnloadTexture',['../ember__gl_8cpp.html#a55829229581591f29fd9980f61f17797',1,'UnloadTexture(Texture texture):&#160;ember_gl.cpp'],['../ember__gl_8h.html#a55829229581591f29fd9980f61f17797',1,'UnloadTexture(Texture texture):&#160;ember_gl.cpp']]],
-  ['update_308',['Update',['../classMesh.html#a8fce819a6739c2abe5a73fe73d9a7270',1,'Mesh::Update()'],['../classTimeManager.html#afdf5ccb706dfd5cd71882424ddf4301d',1,'TimeManager::Update()']]],
-  ['use_309',['Use',['../classShader.html#a11a2de17d1d077ec34acd4f7cd57f6b1',1,'Shader']]]
+  ['timemanager_334',['TimeManager',['../classTimeManager.html#ab1c3cbb48ad68d928bb8b9a4ef210ed6',1,'TimeManager']]],
+  ['transform_335',['Transform',['../structTransform.html#a144ce8dcafd13ca66acb5a1636cfc297',1,'Transform::Transform()=default'],['../structTransform.html#adacad9adbcfc5cee971c71809ff93a75',1,'Transform::Transform(glm::vec3 position, glm::vec3 rotation, glm::vec3 scale)']]]
 ];

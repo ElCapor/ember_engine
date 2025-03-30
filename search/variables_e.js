@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['scale_348',['scale',['../structTransform.html#acf6ab53778448fd2f2d8a367c14e7f95',1,'Transform::scale()'],['../structFont.html#aaf167209d764cf7d8c6a1f7c3b162acc',1,'Font::scale()']]],
-  ['sound_349',['sound',['../structAudio.html#a06fd443563a15a61e83f936e18f20f2e',1,'Audio']]],
-  ['spec_350',['spec',['../structCore.html#a7a5e3b03209a9d187566fe54fd62c203',1,'Core']]]
+  ['r_374',['r',['../structColor.html#ab9a9c7134511f9b116a6fcc81a303ba6',1,'Color']]],
+  ['renderer_375',['renderer',['../ember__core_8h.html#aee5ec0ba39c124cbd88d9b038566b03c',1,'ember_core.h']]],
+  ['rotation_376',['rotation',['../structTransform.html#aefd4a6bf41e01cf5898fd57430d93dea',1,'Transform']]],
+  ['rw_377',['rw',['../structSDL__File.html#acb9e079f01924967d6eed4e3a741371c',1,'SDL_File']]]
 ];

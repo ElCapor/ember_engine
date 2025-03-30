@@ -138,7 +138,7 @@ Macros</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span> {                                                                                            \</div>
 <div class="line">        auto end = std::chrono::high_resolution_clock::now();                                        \</div>
 <div class="line">        auto duration = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - start).count(); \</div>
-<div class="line">        LOG_INFO(<span class="stringliteral">&quot;%s took %d (µs), %.2f (ms)&quot;</span>, description, duration, (<span class="keywordtype">float</span>) duration / 1000.f);                             \</div>
+<div class="line">        LOG_INFO(<span class="stringliteral">&quot;%s took %lld (µs), %.2f (ms)&quot;</span>, description, duration, (<span class="keywordtype">float</span>) duration / 1000.f);                             \</div>
 <div class="line">    } <span class="keywordflow">while</span> (0)</div>
 </div><!-- fragment -->
 <p>Timer macro end. </p>

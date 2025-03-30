@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pause_293',['Pause',['../classTimeManager.html#a77760dd750a7dee52344cd12e4f97629',1,'TimeManager']]]
+  ['operator_3d_320',['operator=',['../classSystemInfo.html#a167d992c65f2b877b3fd73eca9bb202b',1,'SystemInfo']]]
 ];

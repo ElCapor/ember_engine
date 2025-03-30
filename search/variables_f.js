@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['texcoord_351',['texCoord',['../structVertex.html#a8214ff52fee03a5524ce58c3810a1be9',1,'Vertex']]],
-  ['texture_352',['texture',['../structFont.html#ad3cfba9174d52095c98bde67bad8d07f',1,'Font']]],
-  ['time_353',['Time',['../structCore.html#ac9030f90fe4054d6df7c5789a34acbea',1,'Core']]],
-  ['title_354',['title',['../structCore.html#af623b06730245de33c591d72ade85df4',1,'Core']]],
-  ['transform_355',['transform',['../structCamera2D.html#a05294bc9672c2e3e9d61d9fda8dd37ce',1,'Camera2D']]],
-  ['type_356',['type',['../structRenderer.html#ae4a592c272f20d110d6eb9292f2994f8',1,'Renderer']]]
+  ['sample_5frate_378',['SAMPLE_RATE',['../ember__audio_8h.html#a07459f94c952522f2df6e9c3ab32c485',1,'ember_audio.h']]],
+  ['scale_379',['scale',['../structTransform.html#acf6ab53778448fd2f2d8a367c14e7f95',1,'Transform::scale()'],['../structFont.html#aaf167209d764cf7d8c6a1f7c3b162acc',1,'Font::scale()']]],
+  ['sound_380',['sound',['../structAudio.html#a06fd443563a15a61e83f936e18f20f2e',1,'Audio']]],
+  ['spec_381',['spec',['../structCore.html#a7a5e3b03209a9d187566fe54fd62c203',1,'Core']]]
 ];

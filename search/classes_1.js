@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['camera2d_199',['Camera2D',['../structCamera2D.html',1,'']]],
-  ['color_200',['Color',['../structColor.html',1,'']]],
-  ['core_201',['Core',['../structCore.html',1,'']]]
+  ['camera2d_214',['Camera2D',['../structCamera2D.html',1,'']]],
+  ['color_215',['Color',['../structColor.html',1,'']]],
+  ['core_216',['Core',['../structCore.html',1,'']]]
 ];

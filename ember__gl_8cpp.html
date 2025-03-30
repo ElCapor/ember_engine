@@ -123,8 +123,38 @@ Functions</h2></td></tr>
 <tr class="memitem:a8c1cd8171e441bcdb18f9fb2c6dbac75"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8cpp.html#a8c1cd8171e441bcdb18f9fb2c6dbac75">EndMode2D</a> ()</td></tr>
 <tr class="memdesc:a8c1cd8171e441bcdb18f9fb2c6dbac75"><td class="mdescLeft">&#160;</td><td class="mdescRight">End 2D mode.  <a href="ember__gl_8cpp.html#a8c1cd8171e441bcdb18f9fb2c6dbac75">More...</a><br /></td></tr>
 <tr class="separator:a8c1cd8171e441bcdb18f9fb2c6dbac75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93f6f30ae68be417199c75e37e1ad29a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8cpp.html#a93f6f30ae68be417199c75e37e1ad29a">BeginCanvas</a> ()</td></tr>
+<tr class="memdesc:a93f6f30ae68be417199c75e37e1ad29a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Begin Canvas Procedure.  <a href="ember__gl_8cpp.html#a93f6f30ae68be417199c75e37e1ad29a">More...</a><br /></td></tr>
+<tr class="separator:a93f6f30ae68be417199c75e37e1ad29a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c49a5021b4212ffe4125c12f3366ffe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ember__gl_8cpp.html#a2c49a5021b4212ffe4125c12f3366ffe">EndCanvas</a> ()</td></tr>
+<tr class="memdesc:a2c49a5021b4212ffe4125c12f3366ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">End Canvas Procedure.  <a href="ember__gl_8cpp.html#a2c49a5021b4212ffe4125c12f3366ffe">More...</a><br /></td></tr>
+<tr class="separator:a2c49a5021b4212ffe4125c12f3366ffe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="a93f6f30ae68be417199c75e37e1ad29a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93f6f30ae68be417199c75e37e1ad29a">&#9670;&nbsp;</a></span>BeginCanvas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BeginCanvas </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Begin Canvas Procedure. </p>
+<ul>
+<li>Used for Draw Static <code>UI</code></li>
+</ul>
+<dl class="section version"><dt>Version</dt><dd>0.0.7</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
 <a id="ac9fdff6e13c30e067ba36fcb11153902"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac9fdff6e13c30e067ba36fcb11153902">&#9670;&nbsp;</a></span>BeginDrawing()</h2>
 
@@ -172,7 +202,7 @@ Functions</h2></td></tr>
 
 <p>Begin 2D mode. </p>
 <ul>
-<li>Set up the <a class="el" href="structCamera2D.html" title="Construct a new Camera2D object.">Camera2D</a> component</li>
+<li>Set up the <a class="el" href="structCamera2D.html" title="Camera2D component.">Camera2D</a> component</li>
 </ul>
 <p>Usage: BeginMode2D(camera);</p>
 <p>Drawing with the camera view_matrix</p>
@@ -180,7 +210,7 @@ Functions</h2></td></tr>
 <dl class="section version"><dt>Version</dt><dd>0.0.2 </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname"><a class="el" href="structCamera2D.html" title="Construct a new Camera2D object.">Camera2D</a></td><td>the camera (view_matrix) </td></tr>
+    <tr><td class="paramname"><a class="el" href="structCamera2D.html" title="Camera2D component.">Camera2D</a></td><td>the camera (view_matrix) </td></tr>
   </table>
   </dd>
 </dl>
@@ -584,6 +614,31 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
+
+</div>
+</div>
+<a id="a2c49a5021b4212ffe4125c12f3366ffe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c49a5021b4212ffe4125c12f3366ffe">&#9670;&nbsp;</a></span>EndCanvas()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void EndCanvas </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>End Canvas Procedure. </p>
+<ul>
+<li>Restore GL state</li>
+</ul>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="ember__gl_8h.html#a93f6f30ae68be417199c75e37e1ad29a" title="Begin Canvas Procedure.">BeginCanvas</a></dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.0.7</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
 </div>
