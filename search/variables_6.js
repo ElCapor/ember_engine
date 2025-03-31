@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['g_363',['g',['../structColor.html#adc506c5063609cacdda2c007da3b7a5f',1,'Color']]],
-  ['global_5fvolume_364',['global_volume',['../structCore.html#ad2f5e0bf61981230fb42c1b1b855fa7a',1,'Core']]],
-  ['glyphs_365',['glyphs',['../structFont.html#aa6d51712aa2d4cc8a6b6fb89da2366c1',1,'Font']]]
+  ['g_375',['g',['../structColor.html#adc506c5063609cacdda2c007da3b7a5f',1,'Color']]],
+  ['global_5fvolume_376',['global_volume',['../structCore.html#ad2f5e0bf61981230fb42c1b1b855fa7a',1,'Core']]],
+  ['glyphs_377',['glyphs',['../structFont.html#aa6d51712aa2d4cc8a6b6fb89da2366c1',1,'Font']]]
 ];

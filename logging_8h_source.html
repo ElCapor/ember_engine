@@ -116,7 +116,7 @@ $(function() {
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">    do {                                                                                            \</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">        auto end = std::chrono::high_resolution_clock::now();                                        \</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">        auto duration = std::chrono::duration_cast&lt;std::chrono::microseconds&gt;(end - start).count(); \</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">        LOG_INFO(&quot;%s took %lld (µs), %.2f (ms)&quot;</span>, description, duration, (float) duration / 1000.f);                             \</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">        LOG_INFO(&quot;%s took %lld (us), %.2f (ms)&quot;</span>, description, duration, (float) duration / 1000.f);                             \</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    } while (0)</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160; </div>
 <div class="ttc" id="aimports_8h_html"><div class="ttname"><a href="imports_8h.html">imports.h</a></div></div>
